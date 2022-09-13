@@ -1,9 +1,11 @@
 # nmap2docx
-This simple tool create beaty scan docx notes from nmap xml file.
+This simple tool can create docx scan notes from nmap xml file.
 ## Installation:
-`git clone https://github.com/stderr2d0ma1n/nmap2docx
+```
+git clone https://github.com/stderr2d0ma1n/nmap2docx
 cd nmap2docx
-pip3 install -r requirements.txt`
+pip3 install -r requirements.txt
+```
 ## Usage:
 `python3 nmap2docx.py -x <path_to_nmap_xml_file.xml> -d <name_docx_file.docx> -n <project_name>`
 - -x --xml : path to your nmap xml file
